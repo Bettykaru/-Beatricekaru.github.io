@@ -15,7 +15,7 @@ group_name =input("Enter the group's name: ")
 persons_name = input("Enter the name of your school mate: ")
 print() 
 title =("HOW WE MET")
-story = f" {persons_name} recently met on {school_name} program . The first {adjective} session where we were officially welcomed and introduced to the {school_name} official team. After the first session, we were grouped into {total_studygroups} study groups and we happened to fall under {group_name} . After settling into our respective study groups, we were assigned a project work called {project_name}. From the list of our names, we decided to have teams of three and that is how {persons_name} met."
+story = f" {persons_name} recently met on {school_name} program . The first {adjective} session where we were officially welcomed and introduced to the {school_name} official team. After the first session, we were grouped into {total_studygroups} study groups and we happened to fall under {group_name} . After settling into our respective study groups, we were assigned a project called {project_name}. From the list of our names, we decided to have teams of three and that is how {persons_name} and I met."
 print(title)
 print(story)
 tts = gtts.gTTS(story)
